@@ -1,0 +1,252 @@
+button {
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    display: flex;
+  	align-items: center;
+    padding-left: 6vw;
+    height: 10vh;
+    font-size: 1.5vw;
+}
+
+#navBarAll {
+    color: black;
+    text-align: left;
+    font-size: 2vw;
+    position: fixed;
+    height: 100vh;
+    background-color: rgb(241, 238, 238);
+    text-align: center;
+    box-shadow: .5px 0px 8px 2px gray;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1000;
+    
+}
+
+.navBarAll {
+    width: 0px;
+    display: none;
+}
+
+#navTitle {
+    font-family: 'Secular One', sans-serif;
+    position: relative;
+    text-align: left;
+    left: 20px;
+    top: 40px;
+}
+
+#navTitle2 {
+    font-size: 1vw;
+    border-top: 1px solid gray;
+    width: 80%;
+    padding-top: 10px;
+}
+
+#linksNav {
+    position: relative;
+    top: 2vw;
+}
+
+ #aboutNav {
+    margin-top: 4vh;
+}
+
+#aboutNav:hover {
+    background-color: rgb(174, 245, 235);
+    cursor: pointer;
+}
+
+#skillsNav:hover {
+    background-color: rgb(174, 245, 235);
+    cursor: pointer;
+}
+
+#educationNav:hover {
+    background-color: rgb(174, 245, 235);
+    cursor: pointer;
+}
+
+#projectsNav:hover {
+    background-color: rgb(174, 245, 235);
+    cursor: pointer;
+}
+
+#contactNav:hover {
+    background-color: rgb(174, 245, 235);
+    cursor: pointer;
+}
+
+#resumeNav:hover {
+    background-color: rgb(174, 245, 235);
+    cursor: pointer;
+}
+
+/* Icons */
+
+#educationNavIcon  {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+#skillsNavIcon {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+#navAboutIcon {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+#projectsNavIcon {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+#contactNavIcon {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+#resumeNavIcon {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+#navHamMenuIcon {
+    font-size: 2.25vw;
+    position: fixed;
+    left: 1.5vw;
+    top: .75vh;
+    cursor: pointer;
+    z-index: 999;
+    color: white;
+}
+
+/* Transition for Nav Menu */
+
+.navBarAllAfter {
+    animation: openNavMenu .40s ease-in-out forwards;
+    display: inherit;
+
+}
+
+.navExitX {
+    display: none;
+}
+
+.navExitXAfter {
+    display: inherit;
+    position: fixed;
+    font-size: 1.5vw;
+    z-index: 1001;
+    left: -20px;
+    top: 8px;
+    cursor: pointer;
+    animation: moveX .40s ease-in-out forwards; 
+}
+
+@keyframes openNavMenu {
+    0% {
+        width: 0vw;
+    }
+    100% {
+        width: 25vw;
+    }
+}
+
+@keyframes moveX {
+    0% {
+        left: -20px;
+    }
+    100% {
+        left: 23vw
+    }
+}
+
+.navBarAllClosed {
+    animation: closeNavMenu .40s ease-in-out forwards; 
+}
+
+.navExitXClosed {
+    display: none;
+}
+
+@keyframes closeNavMenu {
+    0% {
+        width: 20vw;
+    }
+    100% {
+        width: 0vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    button {
+        padding-left: 10vw;
+        font-size: 2.5vw;
+    }
+
+    #navTitle {
+        font-size: 4vw;
+    }
+
+    #navTitle2 {
+        font-size: 2vw;
+    }
+
+    /* Icons */
+
+#educationNavIcon  {
+    font-size: 30px;
+}
+
+#skillsNavIcon {
+    font-size: 30px;
+}
+
+#navAboutIcon {
+    font-size: 30px;
+}
+
+#projectsNavIcon {
+    font-size: 30px;
+}
+
+#contactNavIcon {
+    font-size: 30px;
+}
+
+#resumeNavIcon {
+    font-size: 30px;
+}
+
+.navExitXAfter {
+    font-size: 2.5vw;
+}
+
+#navHamMenuIcon {
+    font-size: 3.5vw;
+}
+
+@keyframes moveX {
+    0% {
+        left: -20px;
+    }
+    100% {
+        left: 45vw
+    }
+}
+
+    @keyframes openNavMenu {
+        0% {
+            width: 0vw;
+        }
+        100% {
+            width: 50vw;
+        }
+    }
+}

@@ -1,0 +1,595 @@
+#skillsContainer {
+    position: relative;
+    top: -1vw;
+    margin-left: -100px;
+}
+
+#skillsTitle {
+    display: flex;
+    align-items: center;
+    background-color: #36ACF5;
+    width: 100vw;
+    color: white;
+    padding-left: 40px;
+    height: 6vh;
+    font-size: 1vw;
+    box-shadow: 4px 6px 4px 4px gray;
+}
+
+#skillsAll {
+    position: relative;
+    text-align: center;
+    top: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -30vw;
+}
+
+#htmlContainer, #cssContainer, #javascriptContainer, #reactContainer, #nodeJSContainer, #jsxContainer, #mysqlContainer, #mongoDBContainer,
+#githubContainer, #herokuContainter, #expressJSContainer, #postmanContainer, #jiraContainer, #trelloContainer, #freshdeskContainer, 
+#visualStudioContainer, #wordContainer, #excelContainer {
+    margin: 2.5vw;
+}
+
+/* HTML5 */
+
+#skillsHtml5Logo {
+    width: auto;
+    height: 12vw;
+    filter: grayscale(100%);
+}
+
+/* #htmlContainer {
+    position: relative;
+    text-align: center;
+    width: 10vw;
+} */
+
+#html5Text {
+    position: relative;
+}
+
+#skillsHtml5Logo:hover {
+    filter: grayscale(0%);
+    height: 7vw;
+    animation: logoAnimationHover .5s forwards;
+}
+
+#skillsHtml5Logo:not(:hover) {
+    animation: logoAnimationLeaveHover .5s forwards;
+}
+
+/* Css3 */
+/* #cssContainer {
+    position: relative;
+    left: 17vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsCss3Logo {
+    width: auto;
+    height: 9.25vw;
+    filter: grayscale(100%);
+}
+
+#skillsCss3Logo:hover {
+    filter: grayscale(0%);
+    height: 7vw;
+    animation: logoAnimationHover .5s forwards;
+}
+
+#skillsCss3Logo:not(:hover) {
+    animation: logoAnimationLeaveHover .5s forwards;
+}
+
+/* Javascript */
+
+/* #javascriptContainer {
+    position: relative;
+    left: 31vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsJavascriptLogo {
+    width: auto;
+    height: 9.5vw;
+    filter: grayscale(100%);
+}
+
+#skillsJavascriptLogo:hover {
+    filter: grayscale(0%);
+    height: 7vw;
+    animation: logoAnimationHover .5s forwards;
+}
+
+#skillsJavascriptLogo:not(:hover) {
+    animation: logoAnimationLeaveHover .5s forwards;
+} 
+
+#skillsJavascriptText {
+    position: relative;
+    /* left: 2px; */
+}
+
+/* React */
+
+/* #reactContainer {
+    position: absolute;
+    left: 45vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsReactLogo {
+    width: auto;
+    height: 9.5vw;
+    filter: grayscale(100%);
+}
+
+#skillsReactLogo:hover {
+    filter: grayscale(0%);
+    height: 7vw;
+    animation: logoAnimationHover .5s forwards;
+}
+
+#skillsReactLogo:not(:hover) {
+    animation: logoAnimationLeaveHover .5s forwards;
+}
+
+/* Node JS */
+
+/* #nodeJSContainer {
+    position: absolute;
+    left: 59vw; 
+     top: 3vw; 
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsNodeJSLogo {
+    width: 10vw;
+    filter: grayscale(100%);
+}
+
+#skillsNodeJSLogo:hover {
+    filter: grayscale(0%);
+    width: 10vw;
+    animation: nodeLogoAnimation .5s forwards;
+}
+
+#skillsNodeJSLogo:not(:hover) {
+    animation: nodeLogoAnimationLeaveHover .5s forwards;
+}
+
+/* JSX */
+
+/* #jsxContainer {
+    position: absolute;
+    left: 73vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsJsxLogo {
+    width: auto;
+    height: 9.5vw;
+    filter: grayscale(100%);
+}
+
+#skillsJsxLogo:hover {
+    filter: grayscale(0%);
+    height: 7vw;
+    animation: logoAnimationHover .5s forwards;
+}
+
+#skillsJsxLogo:not(:hover) {
+    animation: logoAnimationLeaveHover .5s forwards;
+}
+
+/* MySql */
+
+/* #mysqlContainer {
+    position: absolute;
+    left: 87vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsMysqlLogo {
+    width: 10vw;
+    filter: grayscale(100%);
+}
+
+#skillsMysqlLogo:hover {
+    filter: grayscale(0%);
+    height: 7vw;
+    animation: nodeLogoAnimation .5s forwards;
+}
+
+#skillsMysqlLogo:not(:hover) {
+    animation: nodeLogoAnimationLeaveHover .5s forwards;
+}
+
+/* MongoDB */
+
+/* #mongoDBContainer {
+    position: absolute;
+    left: 3vw; */
+    /* top: 17vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsMongoDBLogo {
+    width: 10vw;
+    filter: grayscale(100%);
+}
+
+#skillsMongoDBLogo:hover {
+    filter: grayscale(0%);
+    width: 10vw;
+    animation: nodeLogoAnimation .5s forwards;
+}
+
+#skillsMongoDBLogo:not(:hover) {
+    animation: nodeLogoAnimationLeaveHover .5s forwards;
+}
+
+/* Github */
+
+/* #githubContainer {
+    position: absolute;
+    left: 17vw;
+    top: 14vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsGithubLogo {
+    width: auto;
+    height: 8vw;
+    filter: grayscale(100%);
+}
+
+#skillsGithubLogo:hover {
+    filter: grayscale(0%);
+    height: 8vw;
+    animation: githubLogoAnimationHover .5s forwards;
+}
+
+#skillsGithubLogo:not(:hover) {
+    animation: githubLogoAnimationLeaveHover .5s forwards;
+}
+
+/* Heroku */
+
+/* #herokuContainter {
+    position: absolute;
+    left: 31vw;
+    top: 14vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsHerokuLogo {
+    width: auto;
+    height: 8vw;
+    filter: grayscale(100%);
+}
+
+#skillsHerokuLogo:hover {
+    filter: grayscale(0%);
+    height: 8vw;
+    animation: githubLogoAnimationHover .5s forwards;
+}
+
+#skillsHerokuLogo:not(:hover) {
+    animation: githubLogoAnimationLeaveHover .5s forwards;
+}
+
+/* Express.JS */
+
+/* #expressJSContainer {
+    position: absolute;
+    left: 45vw;
+    top: 16vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsExpressJS {
+    width: 10vw;
+    filter: grayscale(100%); 
+}
+
+#skillsExpressJS:hover {
+    animation: expressJSLogoAnimationHover .5s forwards;
+}
+
+#skillsExpressJS:not(:hover) {
+    animation: expressJSLogoAnimationLeaveHover .5s forwards;
+}
+
+#skillsExpressJSText {
+    position: relative;
+    left: 2vw;
+}
+
+/* Postman */
+
+/* #postmanContainer {
+    position: absolute;
+    left: 59vw;
+    top: 14vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsPostmanLogo {
+    width: auto;
+    height: 8vw;
+    filter: grayscale(100%);
+}
+
+#skillsPostmanLogo:hover {
+    animation: githubLogoAnimationHover .5s forwards;
+}
+
+#skillsPostmanLogo:not(:hover) {
+    animation: githubLogoAnimationLeaveHover .5s forwards;
+}
+
+/* Jira */
+
+/* #jiraContainer {
+    position: absolute;
+    left: 73vw;
+    top: 14vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsJiraLogo {
+    width: auto;
+    height: 8vw;
+    filter: grayscale(100%);
+}
+
+#skillsJiraLogo:hover {
+    animation: githubLogoAnimationHover .5s forwards;
+}
+
+#skillsJiraLogo:not(:hover) {
+    animation: githubLogoAnimationLeaveHover .5s forwards;
+}
+
+/* Trello */
+
+/* #trelloContainer {
+    position: absolute;
+    left: 87vw;
+    top: 14vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsTrelloLogo {
+    width: auto;
+    height: 8vw;
+    filter: grayscale(100%);
+}
+
+#skillsTrelloLogo:hover {
+    animation: githubLogoAnimationHover .5s forwards;
+}
+
+#skillsTrelloLogo:not(:hover) {
+    animation: githubLogoAnimationLeaveHover .5s forwards;
+}
+
+/* Freshdesk */
+
+/* #freshdeskContainer {
+    position: absolute;
+    left: 3vw;
+    top: 28vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsFreshdeskLogo {
+    width: auto;
+    height: 8vw;
+    filter: grayscale(100%);
+}
+
+#skillsFreshdeskLogo:hover {
+    animation: githubLogoAnimationHover .5s forwards;
+}
+
+#skillsFreshdeskLogo:not(:hover) {
+    animation: githubLogoAnimationLeaveHover .5s forwards;
+}
+
+/* Visual Studio */
+
+/* #visualStudioContainer {
+    position: absolute;
+    left: 17vw;
+    top: 28vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsVisualStudioLogo {
+    width: auto;
+    height: 8vw;
+    filter: grayscale(100%);
+}
+
+#skillsVisualStudioLogo:hover {
+    animation: githubLogoAnimationHover .5s forwards;
+}
+
+#skillsVisualStudioLogo:not(:hover) {
+    animation: githubLogoAnimationLeaveHover .5s forwards;
+}
+
+/* Word */
+
+/* #wordContainer {
+    position: absolute;
+    left: 31vw;
+    top: 28vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsWordLogo {
+    width: auto;
+    height: 8vw;
+    filter: grayscale(100%);
+}
+
+#skillsWordLogo:hover {
+    animation: githubLogoAnimationHover .5s forwards;
+}
+
+#skillsWordLogo:not(:hover) {
+    animation: githubLogoAnimationLeaveHover .5s forwards;
+}
+
+/* Excel */
+
+/* #excelContainer {
+    position: absolute;
+    left: 45vw;
+    top: 28vw;
+    text-align: center;
+    width: 10vw;
+} */
+
+#skillsexcelLogo {
+    width: auto;
+    height: 8vw;
+    filter: grayscale(100%);
+}
+
+#skillsexcelLogo:hover {
+    animation: githubLogoAnimationHover .5s forwards;
+}
+
+#skillsexcelLogo:not(:hover) {
+    animation: githubLogoAnimationLeaveHover .5s forwards;
+}
+
+@keyframes logoAnimationHover {
+    from {
+        filter: grayscale(100%);
+        height: 9vw;
+    }
+    to {
+        filter: grayscale(0%);
+        height: 10vw;
+    }
+}
+
+@keyframes logoAnimationLeaveHover {
+    from {
+        filter: grayscale(0%);
+        height: 10vw;
+    }
+    to {
+        filter: grayscale(100%);
+        height: 9vw;
+    }
+}
+
+@keyframes nodeLogoAnimation {
+    from {
+        filter: grayscale(100%);
+        width: 10vw;
+    }
+    to {
+        filter: grayscale(0%);
+        width: 11vw;
+    }
+}
+
+@keyframes nodeLogoAnimationLeaveHover {
+    from {
+        filter: grayscale(0%);
+        width: 11vw;
+    }
+    to {
+        filter: grayscale(100%);
+        width: 10vw;
+    }
+}
+
+@keyframes githubLogoAnimationHover {
+    from {
+        filter: grayscale(100%);
+        height: 8vw;
+    }
+    to {
+        filter: grayscale(0%);
+        height: 9vw;
+    }
+}
+
+@keyframes githubLogoAnimationLeaveHover {
+    from {
+        filter: grayscale(0%);
+        height: 9vw;
+    }
+    to {
+        filter: grayscale(100%);
+        height: 8vw;
+    }
+}
+
+@keyframes expressJSLogoAnimationHover {
+    from {
+        filter: grayscale(100%);
+        width: 11vw;
+    }
+    to {
+        filter: grayscale(0%);
+        width: 12vw;
+    }
+}
+
+@keyframes expressJSLogoAnimationLeaveHover {
+    from {
+        filter: grayscale(0%);
+        width: 12vw;
+    }
+    to {
+        filter: grayscale(100%);
+        width: 11vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #skillsTitle {
+        font-size: 3vw;
+    }
+
+    #skillsAll {
+        position: relative;
+        top: 4vw;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+
+    #htmlContainer, #cssContainer, #javascriptContainer, #reactContainer, #nodeJSContainer, #jsxContainer, #mysqlContainer, #mongoDBContainer,
+#githubContainer, #herokuContainter, #expressJSContainer, #postmanContainer, #jiraContainer, #trelloContainer, #freshdeskContainer, 
+#visualStudioContainer, #wordContainer, #excelContainer {
+    margin: 3vw;
+}
+
+}

@@ -1,0 +1,159 @@
+#homeAll {
+    position: relative;
+    left: 100px;
+}
+
+body, html {
+    margin:0;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: lightgray;
+    scroll-behavior: smooth;
+  }
+
+   ::-webkit-scrollbar {
+    width: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: gray;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #36ACF5;
+}  
+
+#homePic {
+    background-image: url("./Pictures/HomePic.jpg");
+    position: relative;
+    right: 100px;
+    width: 100vw;
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -13.74vw;
+}
+
+element::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+#homeIntro1, #homeIntro2 {
+    position: relative;
+    top: -5vw;
+    font-size: 2.5vw;
+    color: white;
+}
+
+#homeDownArrow {
+    position: relative;
+    color: #36ACF5;
+    left: 15vw;
+    font-size: 6vw;
+    cursor: pointer;
+    top: -3vw;
+}
+
+#homeDescriptionContainer {
+    width: 30vw;
+    text-align: center;
+    font-size: .75vw;
+    position: relative;
+    left: 55vw;
+    font-family: 'Martel', serif;
+    line-height: 30px;
+    bottom: 30vw;
+}
+
+#homeAboutMe {
+    padding-left: 0vw;
+    font-family: 'Martel', serif;
+    font-size: 1vw;
+    border-bottom: 1px solid black;
+    width: 7vw;
+    padding-left: 14px;
+    position: relative;
+    left: 11vw;
+    top: 1vw;
+    background-color: transparent;
+    height: 1.75vw;
+    cursor: pointer;
+}
+
+#homeAboutMeArrow {
+    position: relative;
+}
+
+#homePortfolioContainer {
+    opacity: .8;
+    width: 30vw;
+    text-align: center;
+    font-size: 1vw;
+    position: relative;
+    left: 54.5vw;
+    bottom: 600px;
+    font-family: 'Martel', serif;
+}
+
+#educationContainer {
+    position: relative;
+    top: 45vw;
+    /* left: -5.2vw; */
+    margin-left: -100px;
+}
+
+#projectsContainer {
+    position: relative;
+    top: 55vw;
+    margin-left: -100px;
+    padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #homeIntro1 {
+        position: relative;
+        top: -50vw;
+        left: -20vw;
+        font-size: 4vw;
+        color: white;
+        text-align: center;
+    }
+
+    #homeIntro2 {
+        display: none;
+    }
+
+    #homeDownArrow {
+        display: none;
+    }
+
+    #homeDescriptionContainer {
+        position: relative;
+        left: 0vw;
+        bottom: 50vw;
+        color: white;
+        text-align: center;
+    }
+
+    #homePersonalTitle {
+        font-size: 2.4vw;
+        width: 60vw;
+    }
+
+    #homePersonalDesc {
+        font-size: 1.75vw;
+        width: 60vw;
+    }
+
+    #homeAboutMe {
+        font-size: 1.75vw;
+        width: 15.5vw;
+        padding-bottom: 2vw;
+        left: 20vw;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+}

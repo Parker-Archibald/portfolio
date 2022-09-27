@@ -1,0 +1,650 @@
+#solitudeContainer {
+    background-color: green;
+    height: 100vw;
+}
+
+#timerContainer {
+    background-color: rgba(59, 56, 56, 0.5);
+    width: 80vw;
+    height: 2vw;
+    position: relative;
+    top: 6vw;
+    left: 10vw;
+    
+}
+
+.startTimeButton {
+    background-color: rgb(133, 235, 235);
+    width: 4vw;
+    height: 2vw;
+    font-size: 1.25vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.startTimeButtonAfter {
+    display: none;
+}
+
+.pauseButton {
+    display: none;
+}
+
+.pauseButtonAfter {
+    background-color: rgb(133, 235, 235);
+    width: 4vw;
+    height: 2vw;
+    font-size: 1.25vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+#timer {
+    position: relative;
+    top: -1.6vw;
+    left: 6vw;
+    color: white;
+}
+
+#firstSlot {
+    position: absolute;
+    background-color: blue;
+    width: 18vw;
+}
+
+#secondSlot {
+    position: absolute;
+    background-color: blue;
+    width: 18vw;
+    left: 12vw;
+}
+
+#thirdSlot {
+    position: absolute;
+    background-color: blue;
+    width: 18vw;
+    left: 24vw;
+}
+
+#fourthSlot {
+    position: absolute;
+    background-color: blue;
+    width: 18vw;
+    left: 36vw;
+}
+
+#fifthSlot {
+    position: absolute;
+    background-color: blue;
+    width: 18vw;
+    left: 48vw;
+}
+
+#sixthSlot {
+    position: absolute;
+    background-color: blue;
+    width: 18vw;
+    left: 60vw;
+}
+
+#seventhSlot {
+    position: absolute;
+    background-color: blue;
+    width: 18vw;
+    left: 72vw;
+}
+
+/* Style for All Cards */
+.cardStyle {
+    position: relative;
+    background-Color: white;
+    width: 10vw;
+    border-Radius: 10px;
+    height: 14vw;
+    font-size: 1.5vw;
+    left: 2vw;
+    border: 1px solid black;
+    margin-bottom: -200px;
+}
+
+#cards {
+    position: relative;
+    left: 7vw;
+    top: 4vw;
+}
+
+/* Ace of Hearts */
+
+#aceOfHeartsContainer {
+    cursor: pointer;
+}
+
+#aceOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 4vw;
+    top: 4vw;
+}
+
+#numberTop {
+    position: relative;
+    left: .5vw;
+}
+
+#numberBottom {
+    position: absolute;
+    top: 11.5vw;
+    left: 8.25vw;
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+}
+
+/* 2 of Hearts */
+
+#twoOfHeartsContainer {
+    position: relative;
+    cursor: pointer;
+    top: 2vw;
+}
+
+#twoOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 4vw;
+    top: 2vw;
+}
+
+#twoOfHeartsUpsideDown {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 4vw;
+    top: 9vw;
+    transform: scaleY(-1);
+}
+
+#twoNumberBottom {
+    position: relative;
+    top: 9.5vw;
+    left: 10.5vw;
+}
+
+/* Three of Hearts */
+
+#threeOfHeartsContainer {
+    cursor: pointer;
+}
+
+#threeOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 4vw;
+    top: 2vw;
+}
+
+#threeOfHeartsUpsideDown {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 4vw;
+    top: 9vw;
+    margin-bottom: 50px;
+    transform: scaleY(-1);
+}
+
+#threeOfHeartsUpsideDown1 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 4vw;
+    top: 5vw;
+    margin-bottom: 50px;
+    transform: scaleY(-1);
+}
+
+/* Four of Hearts */
+
+#fourOfHeartsContainer {
+    cursor: pointer;
+}
+
+#fourOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 2vw;
+}
+
+#fourOfHearts1 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6vw;
+    top: 2vw;
+}
+
+#fourOfHeartsUpsideDown {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 9vw;
+    transform: scaleY(-1);
+}
+
+#fourOfHeartsUpsideDown1 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6vw;
+    top: 9vw;
+    transform: scaleY(-1);
+}
+
+/* Five of Hearts */
+
+#fiveOfHeartsContainer {
+    cursor: pointer;
+}
+
+#fiveOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 2vw;
+}
+
+#fiveOfHearts1 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6vw;
+    top: 2vw;
+}
+
+#fiveOfHeartsUpsideDown {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 9vw;
+    transform: scaleY(-1);
+}
+
+#fiveOfHeartsUpsideDown1 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6vw;
+    top: 9vw;
+    transform: scaleY(-1);
+}
+
+#fiveOfHearts2 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 4vw;
+    top: 5.5vw;
+}
+
+/* Six of Hearts */ 
+
+#sixOfHeartsContainer {
+    cursor: pointer;
+}
+
+#sixOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 2vw;
+}
+
+#sixOfHearts1 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 5.5vw;
+}
+
+#sixOfHearts2 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6vw;
+    top: 2vw;
+}
+
+#sixOfHearts3 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6vw;
+    top: 5.5vw;
+}
+
+#sixOfHeartsUpsideDown {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 9vw;
+    transform: scaleY(-1);
+}
+
+#sixOfHeartsUpsideDown1 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6vw;
+    top: 9vw;
+    transform: scaleY(-1);
+}
+
+/* Seven of Hearts */
+
+#sevenOfHeartsContainer {
+    cursor: pointer;
+}
+
+#sevenOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 4vw;
+    top: 3.5vw;
+}
+
+/* Eight of Hearts */
+
+#EightOfHeartsContainer {
+    cursor: pointer;
+}
+
+#eightOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 4vw;
+    top: 7vw;
+    transform: scaleY(-1);
+}
+
+/* Nine of Hearts */
+
+#nineOfHeartsContainer {
+    cursor: pointer;
+}
+
+#nineOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 1.5vw;
+}
+
+#nineOfHearts1 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 4.5vw;
+}
+
+#nineOfHearts2 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6vw;
+    top: 1.5vw;
+}
+
+#nineOfHearts3 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6vw;
+    top: 4.5vw;
+}
+
+#nineOfHearts4 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 4vw;
+    top: 3vw;
+}
+
+#nineOfHeartsUpsideDown {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 7vw;
+    transform: scaleY(-1);
+}
+
+#nineOfHeartsUpsideDown1 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 10vw;
+    transform: scaleY(-1);
+}
+
+#nineOfHeartsUpsideDown2 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6vw;
+    top: 7vw;
+    transform: scaleY(-1);
+}
+
+#nineOfHeartsUpsideDown3 {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6vw;
+    top: 10vw;
+    transform: scaleY(-1);
+}
+
+/* Ten of Hearts */
+
+#tenOfHeartsContainer {
+    cursor: pointer;
+}
+
+#tenOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 2vw;
+    height: 2vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 4vw;
+    top: 9vw;
+    transform: scaleY(-1);
+}
+
+/* Jack of Hearts */
+
+#jackOfHeartsContainer {
+    cursor: pointer;
+}
+
+#jackOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 6vw;
+    height: 6vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 4vw;
+}
+
+#jackOfHearts1 {
+    background-image: url('./Pictures/hearts.png');
+    width: 1vw;
+    height: 1vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: .25vw;
+    top: 2vw;
+}
+
+#jackOfHearts2 {
+    background-image: url('./Pictures/hearts.png');
+    width: 1vw;
+    height: 1vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 8vw;
+    top: 10.5vw;
+    transform: scaleY(-1);
+}
+
+/* Queen of Hearts */
+
+#queenOfHeartsContainer {
+    cursor: pointer;
+}
+
+#queenOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 6vw;
+    height: 6vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 4vw;
+}
+
+
+/* King of Hearts */
+
+#kingOfHeartsContainer {
+    cursor: pointer;
+}
+
+#kingOfHearts {
+    background-image: url('./Pictures/hearts.png');
+    width: 6vw;
+    height: 6vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2vw;
+    top: 4vw;
+}

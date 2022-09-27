@@ -1,0 +1,74 @@
+#educationAll {
+    height: 33vh;
+}
+
+#educationTitle {
+    display: flex;
+    align-items: center;
+    background-color: #36ACF5;
+    width: 100vw;
+    color: white;
+    padding-left: 40px;
+    height: 6vh;
+    font-size: 1vw;
+    box-shadow: 4px 6px 4px 4px gray;
+}
+
+#allEducation {
+    position: relative;
+    display: flex;
+    left: 8vw;
+}
+
+#educationBox {
+    position: relative;
+    background-color: white;
+    width: 30vw;
+    height: 10vw;
+    margin: 6vw;
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px 1px gray;
+}
+
+#eduBoxTitle {
+    position: relative;
+    font-size: 1.75vw;
+    top: 1vw;
+    left: 2vw;
+    width: 85%;
+    border-bottom: 1px solid gray;
+}
+
+#eduBoxDesc {
+    position: relative;
+    top: 2vw;
+    left: 2vw;
+    width: 85%;
+    text-align: center;
+}
+
+#helioDate, #fullSailDate {
+    position: relative;
+    top: 3.5vw;
+    left: 2.5vw;
+    font-weight: 400;
+}
+
+#fullSailDate {
+    top: 4.5vw;
+}
+
+@media only screen and (max-width: 768px) {
+    #educationAll {
+        height: 20vh;
+    }
+
+    #educationTitle {
+        font-size: 4vw;
+    }
+
+    #educationBox {
+        font-size: 2.5vw;
+        height: 30vw;
+    }
+}

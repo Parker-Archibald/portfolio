@@ -1,0 +1,99 @@
+#aboutMeContainer {
+    position: relative;
+    margin-top: -17.5vh;
+    text-align: left;
+    width: 100vw;
+    margin-left: -100px;
+}
+
+#aboutMeBackImg {
+    background-image: url('./Pictures/AboutMeBackground.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: auto;
+    position: relative;
+    opacity: .4;
+    top: -1vw;
+    padding-bottom: 80px;
+}
+
+#aboutMeTitle {
+    display: flex;
+    align-items: center;
+    background-color: #36ACF5;
+    width: 100vw;
+    color: white;
+    padding-left: 40px;
+    height: 6vh;
+    font-size: 1.5vw;
+    box-shadow: 4px 6px 4px 4px gray;
+}
+
+#aboutMePic {
+    position: absolute;
+    width: auto;
+    height: 40vw;
+    left: 58vw;
+    top: 10vw;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+
+#aboutMeText {
+    position: absolute;
+    top: 16vw;
+    left: 4vw;
+    width: 50vw;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #36ACF5;
+    border-radius: 40px;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+
+#aboutMeH1 {
+    font-size: 2vw;
+}
+
+#aboutMeParagraph {
+    font-size: 1.5vw;
+    line-height: 60px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutMeContainer {
+        margin-top: -11.10vh;
+    }
+
+    #aboutMeTitle {
+        background-color: #36ACF5;
+        padding-left: 40px;
+        height: 6vh;
+        font-size: 4vw;
+    }
+
+    #aboutMePic {
+        height: 42vh;
+        left: 10vw;
+        top: 24vw;
+    }
+
+    #aboutMeText {
+        top: 55vh;
+        left: 9vw;
+        width: 85vw;
+    }
+
+    #aboutMeH1 {
+        font-size: 4vw;
+    }
+
+    #aboutMeParagraph {
+        font-size: 3vw;
+        line-height: 35px;
+        padding: 20px;
+    }
+}

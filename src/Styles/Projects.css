@@ -1,0 +1,235 @@
+#projectsTitle {
+    display: flex;
+    align-items: center;
+    background-color: #36ACF5;
+    width: 100vw;
+    color: white;
+    padding-left: 40px;
+    height: 6vh;
+    font-size: 1vw;
+    box-shadow: 4px 6px 4px 4px gray;
+    font-size: 1.75vw;
+}
+
+.projectBox {
+    background-color: white;
+    width: 18vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+    height: 20vw;
+    opacity: .5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.projectBoxAfter {
+    background-color: white;
+    height: 20vw;
+    opacity: .5;
+    border-radius: 8px;
+    overflow: hidden;
+    animation: openBox .5s forwards;
+}
+
+.projectBoxClosed {
+    background-color: white;
+    height: 20vw;
+    opacity: .5;
+    border-radius: 8px;
+    overflow: hidden;
+    animation: closeBox .5s forwards;
+}
+
+@keyframes openBox {
+    from {
+        width: 18vw;
+        margin-top: 5vw;
+        margin-left: 5vw;
+        margin-bottom: 5vw;
+    }
+    to {
+        opacity: 1;
+        box-shadow: 2px 6px 6px 1px gray;
+        width: 22vw;
+        height: 25vw;
+        margin-left: 3.5vw;
+        margin-top: 3.5vw;
+    }
+}
+
+@keyframes closeBox {
+    from {
+        opacity: 1;
+        box-shadow: 2px 6px 6px 1px gray;
+        width: 22vw;
+        height: 25vw;
+        margin-left: 3.5vw;
+        margin-top: 3.5vw;
+    }
+    to {
+        width: 18vw;
+        margin-top: 5vw;
+        margin-left: 5vw;
+        margin-bottom: 5vw;
+    }
+}
+
+#projectInnerText {
+    width: 45%;
+    background-color: #36ACF5;
+    height: 100%;
+}
+
+#projectBoxTitle {
+    position: relative;
+    font-size: 1.5vw;
+    border-bottom: 1px solid black;
+    width: 85%;
+    left: 7.5%;
+    text-align: center;
+}
+
+#todoAppDescription {
+    position: relative;
+    left: 1vw;
+    top: 1.5vw;
+    margin-right: 2vw;
+    font-size: .5vw;
+}
+
+#todoProjectDescTitle {
+    font-size: .75vw;
+}
+
+#todoProjectDesc {
+    position: relative;
+    top: .5vw;
+}
+
+#todoProjectSkillsTitle {
+    position: relative;
+    font-size: .75vw;
+    top: 1vw;
+}
+
+#todoProjectSkills {
+    position: relative;
+    top: 1.5vw;
+}
+
+.todoPictureContainer {
+    position: absolute;
+    top: 8vw;
+    left: 13.1vw;
+    transition: top .5s;
+}
+
+.todoPictureContainerAfter {
+    position: absolute;
+    top: 6.5vw;
+    left: 13.5vw;
+    transition: top .5s;
+}
+
+.todoPictureContainerAfter:hover {
+    cursor: pointer;
+}
+
+.todoPicture {
+    width: 9.2vw;
+}
+
+.todoPictureAfter {
+    animation: biggerPic .5s forwards;
+}
+
+.todoPictureClose {
+    animation: smallerPic .5s forwards;
+}
+
+@keyframes biggerPic {
+    from {
+        width: 9.2vw;
+    }
+    to {
+        width: 11.5vw;
+    }
+}
+
+@keyframes smallerPic {
+    from {
+        width: 11.5vw;
+    }
+    to {
+        width: 9.2vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #projectsTitle {
+        font-size: 4vw;
+    }
+
+    .projectBox {
+        width: 90vw;
+        margin-top: 8vw;
+        height: 65vw;
+        opacity: 1;
+    }
+    
+    .projectBoxAfter {
+        position: relative;
+        animation: none;
+        width: 90vw;
+        margin-top: 8vw;
+        height: 65vw;
+        left: 5vw;
+        opacity: 1;
+    }
+
+    #projectBoxTitle {
+        font-size: 3vw;
+        top: 2vw;
+    }
+
+    #todoProjectDescTitle {
+        font-size: 3vw;
+    }
+
+    #todoAppDescription {
+        top: 1.5vw;
+        font-size: 2vw;
+    }
+
+    #projectInnerText {
+        width: 60%;
+    }
+
+    #todoProjectSkillsTitle {
+        font-size: 3vw;
+    }
+
+    .todoPictureContainer {
+        position: absolute;
+        top: 21vw;
+        left: 59vw;
+        transition: top .5s;
+    }
+
+    .todoPictureContainerAfter {
+        position: absolute;
+        top: 21vw;
+        left: 59vw;
+    }
+
+    .todoPicture {
+        width: 30vw;
+    }
+
+    .todoPictureAfter {
+        animation: none;
+        width: 30vw;
+
+    }
+}
