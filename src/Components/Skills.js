@@ -7,7 +7,7 @@ class Skills extends Component {
                 <div id= 'skillsTitle'>
                     <h1>Skills</h1>
                 </div>
-                {/* <div  id='skillsAll'>
+                <div  id='skillsAll'>
                     <div id= 'htmlContainer'>
                         <img src={require('../Styles/Pictures/html5Logo.png')} id='skillsHtml5Logo'/>
                         <div id='html5Text'>HTML5</div>
@@ -80,7 +80,7 @@ class Skills extends Component {
                         <img src={require('../Styles/Pictures/excelLogo.png')} id='skillsexcelLogo'/>
                         <div>Excel</div>
                     </div>
-                </div> */}
+                </div>
             </div>
         )
     }

@@ -43,7 +43,7 @@ class Home extends Component {
                         <AboutMe/>
                     </div>
                 </div>
-                <div id='skillsContainer'>
+                {/* <div id='skillsContainer'>
                     <Skills/>
                 </div>
                 <div id='educationContainer'>
@@ -51,7 +51,7 @@ class Home extends Component {
                 </div>
                 <div id='projectsContainer'>
                     <Projects/>
-                </div>
+                </div> */}
             </div>
         )
     }
