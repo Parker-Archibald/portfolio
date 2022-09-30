@@ -5,8 +5,6 @@ import {FcGraduationCap} from 'react-icons/fc';
 import {AiOutlineFundProjectionScreen} from 'react-icons/ai';
 import {BiMailSend} from 'react-icons/bi';
 import {GrDocumentText} from 'react-icons/gr';
-import {Link} from 'react-router-dom';
-import { stack as Menu } from 'react-burger-menu';
 import {GiHamburgerMenu} from 'react-icons/gi';
 import '../Styles/Nav.css';
 
