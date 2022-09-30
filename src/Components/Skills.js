@@ -7,7 +7,7 @@ class Skills extends Component {
                 <div id= 'skillsTitle'>
                     <h1>Skills</h1>
                 </div>
-                <div  id='skillsAll'>
+                {/* <div  id='skillsAll'>
                     <div id= 'htmlContainer'>
                         <img src={require('../Styles/Pictures/html5Logo.png')} id='skillsHtml5Logo'/>
                         <div id='html5Text'>HTML5</div>
@@ -60,10 +60,6 @@ class Skills extends Component {
                         <img src={require('../Styles/Pictures/jiraLogo.png')} id='skillsJiraLogo'/>
                         <div>Jira</div>
                     </div>
-                    {/* <div id='c++Container'>
-                        <img src={require('../Styles/Pictures/c++Logo.png')} id='skillsC++Logo'/>
-                        <div>C++</div>
-                    </div> */}
                     <div id='trelloContainer'>
                         <img src={require('../Styles/Pictures/trelloLogo.png')} id='skillsTrelloLogo'/>
                         <div>Trello</div>
@@ -84,7 +80,7 @@ class Skills extends Component {
                         <img src={require('../Styles/Pictures/excelLogo.png')} id='skillsexcelLogo'/>
                         <div>Excel</div>
                     </div>
-                </div>
+                </div> */}
             </div>
         )
     }
